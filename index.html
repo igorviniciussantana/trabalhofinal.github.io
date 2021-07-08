@@ -4,42 +4,110 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Trabalho Final</title>
-	<link rel="icon" type="imagem/png" href="imagens/ifms.png" />
+	<title>News dos Fellas</title>
+	<link rel="icon" type="imagem/png" href="imagens/icon.png" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
 </head>
 
 <body>
+	<!--Cookies -->
+	<script src="https://apps.elfsight.com/p/platform.js" defer>
+
+	</script>
+	<div class="elfsight-app-b6f411a2-c642-4977-a50e-8cbb2b26d716"></div>
+
 
 	<div class="container">
+		<!-- Cabeçalho -->
 		<header class="row g-0">
-			<div class="col-3"><img src="imagens/menu.png" class="img-rodape "></div>
-		 <div class="col-6">	<h1>NEWS DOS FELLAS</h1></div>
-      <div class="col-3"><img  src="imagens/busca.png" class="img-rodape "></div>
+			<div class="col-3"><img src="imagens/menu.png" class="img-responsive img-rodape animate__animated animate__slideInDown"></div>
+		 <div class="col-6 " >	<img src="imagens/titulo.png" class="img-responsive imgtitle animate__animated animate__slideInDown"></div>
+      <div class="col-3"><img  src="imagens/busca.png" class="img-rodape animate__animated animate__slideInDown"></div>
 		</header>
     
-		<div class="row">
-			<main class="col-9">
+    <!-- Conteúdo Principal -->
+		<div class="row px-5">
+
+      <!-- Notícias -->
+			<main class="col-md-12 col-lg-9 animate__animated animate__zoomIn">
+        <div > <center><h3 class="destaqueTitle mt-5 animate__animated animate__slideInDown">DESTAQUE</h3></center></div>
 				<center>
 					<div id="div1"></div>
 				</center>
 			
+       <div > <center><h3 class="destaqueTitle mt-5">NOTÍCIAS</h3></center></div>
 			<center>
 				<div id="div2" class="p-3"></div>
 			</center>
       </main>
 
-      <aside class="col-3">
+       <!-- Lateral -->
+       
+       
+      <aside class="col-lg-3 col-md-12 animate__animated animate__slideInRight">
 
-      <div id="anucios"><img src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/157/Banner-300x250.gif">
-      <img id="anucios" src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/376/banner_uniprime_300x250__1_.gif">
-      
-       <img id="anucios" src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/6/picasion.com_586082e92ccbb4bb707bec8c25630d01.gif">
+        <div><center><h3 class="destaqueTitle mt-5">Veja também:</h3></center></div>
 
-        <img id="anucios" src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/496/max_celular.gif">
+      <div id="anucios">
+        <div>
+        <img id = "img1"   src="https://jornaldanova.com.br/userfiles/imagens/materias/medium/b_07072021_134347717057913_1.JPG" class="col-md-12">
+        <a id= "noticia" href="https://jornaldanova.com.br/noticia/415370/20--da-populacao-de-bataypora-esta-imunizada-contra-a-covid-19">20% da população de Batayporã está imunizada contra a Covid-19</a>
+
+
+        <img id = "img1" src="https://jornaldanova.com.br/userfiles/imagens/materias/medium/b_07072021_110151717062549_1.jpg" class="col-md-12">
+        <a id= "noticia" href="https://jornaldanova.com.br/noticia/415366/empresa-de-nova-andradina-e-multada-em-r--1-mil-por-queima-de-po-de-serra">Empresa de Nova Andradina é multada em R$ 1 mil por queima de pó de serra</a>
+
+
+        <img id = "img1" src="https://jornaldanova.com.br/userfiles/imagens/materias/medium/b_08072021_074843717157177_1.jpg" class="col-md-12">
+        <a id= "noticia" href="https://jornaldanova.com.br/noticia/415389/sicredi-centro-sul-ms-atinge-a-marca-historica-de-100-mil-associados">Sicredi Centro-Sul MS atinge a marca histórica de 100 mil associados</a>
+
+        </div>
+
+      <div>
+      <div id="maislidas">
+      <div id="cabecalho"><h1>MAIS LIDAS</h1></div>
+
+      <div>
+
+      <div id="lidas"><a href="https://jornaldanova.com.br/noticia/415341/construtor%20de%20ivinhema%20preso%20por%20estuprar%20adolescente%20pagou%20r-%2050%20a%20vitima%20e%20filmou%20crime"><span class="numeros">1</span> <span class="lidasTxt">- Construtor de Ivinhema preso por estuprar adolescente pagou R$ 50 à vítima e filmou crime</span></a></div>
+
+      <hr>
+
+      <div id="lidas""><a href="https://jornaldanova.com.br/noticia/415359/trio%20assalta%20mercado%20em%20nova%20andradina"><span class="numeros">2</span><span class="lidasTxt">- Trio assalta mercado em Nova Andradina</span></a></div>
+      </hr>
+      <hr>
+      <div id="lidas"><a href="hhttps://jornaldanova.com.br/noticia/415345/estelionatario%20se%20passa%20por%20-advogado-%20para%20vender%20rifa%20falsa%20em%20nova%20andradina"><span class="numeros">3</span><span class="lidasTxt"> - Estelionatário se passa por ''advogado'' para vender rifa falsa em Nova Andradina</span></a></div>
+    
+      </hr>
+
+      <hr> 
+  
+      <div id="lidas"><a href="https://jornaldanova.com.br/noticia/415376/policia%20civil%20elucida%20crime%20de%20abigeato%20em%20bataypora"><span class="numeros">4</span><span class="lidasTxt"> - Polícia Civil elucida crime de abigeato em Batayporã</span></a></div></hr> 
       </div>
 
+
+      </div>
+      </div>
+      </div>
+
+       <img id="anuncios" src="https://jornaldanova.com.br/userfiles/banners/primeburguer300x250.gif" class="col-lg-12 col-md-6 col-sm-12">
+      
+       <img id="anuncios" src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/6/picasion.com_586082e92ccbb4bb707bec8c25630d01.gif" class="col-lg-12 col-md-6 col-sm-12">
+
+        <img id="anuncios" src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/496/max_celular.gif" class="col-lg-12 col-md-6 col-sm-12">
+
+        <img id="anuncios" src="https://cdn2.novanews.com.br//uploads/banner_ad/file_ad/153/01.gif" class="col-lg-12 col-md-6 col-sm-12">
+
+        <img id="anuncios" src="https://jornaldanova.com.br/userfiles/banners/b_04072021_210128289347616_1.gif" class="col-lg-12 col-md-6 col-sm-12">
+
+        <img id="anuncios" src="https://jornaldanova.com.br/userfiles/banners/subway300x465_maio2020.gif_1.gif" class="col-lg-12 col-md-6 col-sm-12">
+
+      </div>
+        
+        </div>   
 
       </aside>
 
@@ -48,9 +116,17 @@
 
 
 
-   <footer class="row rodape g-0 ">
 
-   <center><div class=" col g-0"><p>•Nova Andradina, MS</p>
+<!-- Rodapé -->
+
+
+
+
+   <footer class="row rodape g-0 p-3 ">
+
+   <center><div class=" col g-0">
+     
+     <p>•Nova Andradina, MS</p>
 
     <p> ©Todos os direitos reservado a  NEWS DOS FELLAS</p></div></center>
     </footer>

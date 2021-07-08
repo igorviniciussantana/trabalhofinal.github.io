@@ -1,8 +1,8 @@
-class CustomError extends Error { 
+class CustomError extends Error {
   constructor(mensagem) {
     super(mensagem);
-    this.name ="NoticiaError"
-   
+    this.name = "NoticiaError"
+
   }
 }
 

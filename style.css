@@ -38,8 +38,9 @@ color:white;
 
 
 }
-#anucios{
-  margin-top: 70px;
+#anuncios{
+  margin-top: 20px;
+  margin-right: -3px;
 }
 
 
@@ -53,3 +54,67 @@ cursor: pointer;
 
 }
 
+#img1{
+  width: 300px ;
+  margin-top: 40px;
+}
+#noticia{
+  color: green;
+  font-size: 20px;
+  margin-bottom: 30px;
+ font-weight:bolder;
+ text-decoration:none;
+}
+#noticia:hover {
+  color: #000000; 
+
+transition: 0.1s;
+
+opacity: 0.7;
+
+}
+
+.destaqueTitle{
+color:white;
+background-color: #32CD32;
+line-height:50px;
+
+
+}
+
+.imgtitle{
+
+height: 250px ;
+margin-top: -100px;
+
+}
+#maislidas{
+margin-top: 20px;
+border: solid 2px 
+#32CD32;
+
+
+}
+#cabecalho{
+  background-color: #32CD32;
+color:white;
+text-align:center;
+ 
+}
+.numero{
+  color: green;
+  font-size: 25px;
+}
+.numeros{
+color:#32CD32;
+}
+
+.lidasTxt:hover {
+color: #32CD32; 
+
+
+}
+
+.img {
+  margin-right: -3px;
+}

@@ -49,10 +49,12 @@ get mostrarNoticia(){
        if (this._titulo != "") {
 
        return `
+       <div class="shadow p-3">
         <a href="${this._link}"><h1>${this._titulo}</h1></a>
         <p class="mt-2">${this._data}</p>
         <p class="mt-2">${this._autor}</p>
         <p class="descricao">${this._descricao}</p>
+        </div>
       `
       
     } else {
