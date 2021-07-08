@@ -1,15 +1,54 @@
-header h1{
+header{
 
 background-color: green;
 color: white;
-line-height: 200px;
+height: 200px;
 text-align: center;
-
+font-weight: bolder;
+padding-top: 75px;
 }
+
+
 
 .descricao{
 text-align: justify;
 
+
+
+}
+
+a{
+text-decoration: none;
+color:black
+
+
+}
+
+a:hover{
+
+color:#363636
+
+}
+
+.rodape{
+background-color: green;
+color:white;
+
+
+
+
+}
+#anucios{
+  margin-top: 70px;
+}
+
+
+
+
+.img-rodape{
+height:52px;
+width:52px;
+cursor: pointer;
 
 
 }

@@ -28,6 +28,12 @@ class Noticia {
     return this._descricao;
   }
 
+  set link(link){
+   this._link = link;
+  }
+  get linkNoticia(){
+    return this._link;
+  }
 
 get mostrarNoticia(){
   try {
@@ -43,9 +49,9 @@ get mostrarNoticia(){
        if (this._titulo != "") {
 
        return `
-        <h1>${this._titulo}</h1>
-        <p>${this._data}</p>
-        <p>${this._autor}</p>
+        <a href="${this._link}"><h1>${this._titulo}</h1></a>
+        <p class="mt-2">${this._data}</p>
+        <p class="mt-2">${this._autor}</p>
         <p class="descricao">${this._descricao}</p>
       `
       
